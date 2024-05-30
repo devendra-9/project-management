@@ -1,0 +1,76 @@
+.displayproject
+{
+    padding: 0px;
+    margin: 0px;
+
+}
+.displayproject-head
+{
+    overflow-x: scroll;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    gap:5px;
+}
+.displayproject-main
+{
+    border-radius: 20px;
+    padding-left: 10px;
+    padding: 10px;
+    margin: 10px;
+    height: 180px;
+    width: 97%;
+    /* background-color: antiquewhite; */
+}
+.displayhead
+{
+    padding: 10px;
+    border: 1px solid black;
+    /* background-color:aqua; */
+    border-radius: 10px;
+    width:300px;
+    height:150px;
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+}
+.displayhead button
+{
+    height: 30px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.displayhead a
+{
+    text-decoration: none;
+    color:black
+}
+.displaydesc
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:start;
+
+}
+.displaydesc h1
+{
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+    font-weight: 600;
+}
+.displaydesc p
+{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}

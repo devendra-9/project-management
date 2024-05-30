@@ -1,0 +1,166 @@
+.addbuttons
+{
+    margin-top: 20px;
+    padding: 10px;
+}
+.addbuttons
+{
+    display: flex;
+    justify-content: left;
+    gap:10px;
+    padding: 0px;
+}
+.addclient button
+{
+    background-color: rgb(146, 3, 241);
+    font-size: 13px;
+    height: 35px;
+    color: white;
+    border: 1px solid black;
+    outline: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.addproject button
+{
+    background-color: rgb(241, 3, 229);
+    font-size: 13px;
+    height: 35px;
+    color: white;
+    border: 1px solid black;
+    outline: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.add-client-form
+{
+    display: none;
+    background-color: rgba(0, 0,0, 0.5);
+    height: 100vh;
+    width:100%;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.add-client-middle, .add-project-middle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+    width:99.9%;
+}
+.add-client-getdetails
+{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    height: 62%;
+}
+.add-client-getdetails p, .add-project-getdetails p
+{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+.add-client-getdetails p span, .add-project-getdetails p span
+{
+    color:red;
+    cursor: pointer;
+}
+.add-client-getdetails h1, .add-project-getdetails h1
+{
+    /* background-color: antiquewhite; */
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.clientdetails, .projectdetails
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0px;
+}
+.addemail, .addusername, .addphonenumber, .clientsubmit, .clientcancel,.projectcancel, .projectsubmit,.add-project, .adddescription, .projectstatus, .projectclient
+{
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap:10px;
+}
+.addemail input, .addusername input, .addphonenumber input, .add-project input, .adddescription textarea, .projectstatus select, .projectclient select
+{
+    padding: 8px;
+    width:90%;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    border: 1px solid grey;
+    outline: none;
+}
+.clientsubmit button, .projectsubmit button
+{
+    padding: 8px;
+    width:95%;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    border: 1px solid grey;
+    outline: none;
+    background-color: rgb(146, 3, 241);
+    color: white;
+    cursor: pointer;
+}
+.clientcancel button, .projectcancel button
+{
+    padding: 8px;
+    width:95%;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    border: 1px solid grey;
+    outline: none;
+    background-color: rgb(244, 3, 3);
+    color: white;
+    cursor: pointer;
+}
+.add-project-form
+{
+    display: none;
+    background-color: rgba(0, 0,0, 0.5);
+    height: 100vh;
+    width:100%;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.add-project-getdetails
+{
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    height: 75%;
+}
+.activediv 
+{
+    display: block;
+}
